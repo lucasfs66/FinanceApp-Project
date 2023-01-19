@@ -9,23 +9,37 @@
 /* Begin PBXBuildFile section */
 		A0047B07296F62AF00608917 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0047B06296F62AF00608917 /* AppDelegate.swift */; };
 		A0047B09296F62AF00608917 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0047B08296F62AF00608917 /* SceneDelegate.swift */; };
-		A0047B0B296F62AF00608917 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0047B0A296F62AF00608917 /* ViewController.swift */; };
 		A0047B0E296F62AF00608917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0047B0C296F62AF00608917 /* Main.storyboard */; };
 		A0047B11296F62AF00608917 /* FinanceApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0047B0F296F62AF00608917 /* FinanceApp.xcdatamodeld */; };
 		A0047B13296F62B100608917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0047B12296F62B100608917 /* Assets.xcassets */; };
 		A0047B16296F62B100608917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0047B14296F62B100608917 /* LaunchScreen.storyboard */; };
+		A0A762702976816500DAF5EE /* BalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A7626F2976816500DAF5EE /* BalanceViewController.swift */; };
+		A0A76272297685FD00DAF5EE /* EditPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A76271297685FD00DAF5EE /* EditPageViewController.swift */; };
+		A0AD906629789E0B00B49035 /* QuotesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AD906529789E0A00B49035 /* QuotesModel.swift */; };
+		A0AD90682978A92900B49035 /* QuotesModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AD90672978A92900B49035 /* QuotesModelController.swift */; };
+		A0B4F4B6297735F00038BDFB /* AddOrMinusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B4F4B5297735F00038BDFB /* AddOrMinusViewController.swift */; };
+		A0D3058329762F7600A506E8 /* BalanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D3058229762F7600A506E8 /* BalanceController.swift */; };
+		A0FB408929762A83000F8A3C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FB408829762A83000F8A3C /* CoreDataStack.swift */; };
+		A0FB408B29762AE5000F8A3C /* Balance+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FB408A29762AE5000F8A3C /* Balance+Convenience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A0047B03296F62AF00608917 /* FinanceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0047B06296F62AF00608917 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0047B08296F62AF00608917 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A0047B0A296F62AF00608917 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0047B0D296F62AF00608917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0047B10296F62AF00608917 /* FinanceApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinanceApp.xcdatamodel; sourceTree = "<group>"; };
 		A0047B12296F62B100608917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0047B15296F62B100608917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0047B17296F62B100608917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0A7626F2976816500DAF5EE /* BalanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceViewController.swift; sourceTree = "<group>"; };
+		A0A76271297685FD00DAF5EE /* EditPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPageViewController.swift; sourceTree = "<group>"; };
+		A0AD906529789E0A00B49035 /* QuotesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesModel.swift; sourceTree = "<group>"; };
+		A0AD90672978A92900B49035 /* QuotesModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesModelController.swift; sourceTree = "<group>"; };
+		A0B4F4B5297735F00038BDFB /* AddOrMinusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrMinusViewController.swift; sourceTree = "<group>"; };
+		A0D3058229762F7600A506E8 /* BalanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceController.swift; sourceTree = "<group>"; };
+		A0FB408829762A83000F8A3C /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		A0FB408A29762AE5000F8A3C /* Balance+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Balance+Convenience.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +72,63 @@
 		A0047B05296F62AF00608917 /* FinanceApp */ = {
 			isa = PBXGroup;
 			children = (
-				A0047B06296F62AF00608917 /* AppDelegate.swift */,
-				A0047B08296F62AF00608917 /* SceneDelegate.swift */,
-				A0047B0A296F62AF00608917 /* ViewController.swift */,
-				A0047B0C296F62AF00608917 /* Main.storyboard */,
-				A0047B12296F62B100608917 /* Assets.xcassets */,
-				A0047B14296F62B100608917 /* LaunchScreen.storyboard */,
-				A0047B17296F62B100608917 /* Info.plist */,
-				A0047B0F296F62AF00608917 /* FinanceApp.xcdatamodeld */,
+				A0C706E3297074DA00400794 /* ModelController */,
+				A0C706DF2970747C00400794 /* ViewController */,
+				A0C706DE2970742800400794 /* Resource */,
+				A0C706E02970749600400794 /* Storyboard */,
+				A0C706E1297074B700400794 /* Models */,
 			);
 			path = FinanceApp;
+			sourceTree = "<group>";
+		};
+		A0C706DE2970742800400794 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A0047B06296F62AF00608917 /* AppDelegate.swift */,
+				A0047B08296F62AF00608917 /* SceneDelegate.swift */,
+				A0047B12296F62B100608917 /* Assets.xcassets */,
+				A0047B17296F62B100608917 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A0C706DF2970747C00400794 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A0A7626F2976816500DAF5EE /* BalanceViewController.swift */,
+				A0A76271297685FD00DAF5EE /* EditPageViewController.swift */,
+				A0B4F4B5297735F00038BDFB /* AddOrMinusViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A0C706E02970749600400794 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A0047B0C296F62AF00608917 /* Main.storyboard */,
+				A0047B14296F62B100608917 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A0C706E1297074B700400794 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A0047B0F296F62AF00608917 /* FinanceApp.xcdatamodeld */,
+				A0FB408829762A83000F8A3C /* CoreDataStack.swift */,
+				A0FB408A29762AE5000F8A3C /* Balance+Convenience.swift */,
+				A0AD906529789E0A00B49035 /* QuotesModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A0C706E3297074DA00400794 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				A0D3058229762F7600A506E8 /* BalanceController.swift */,
+				A0AD90672978A92900B49035 /* QuotesModelController.swift */,
+			);
+			path = ModelController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +202,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0AD90682978A92900B49035 /* QuotesModelController.swift in Sources */,
 				A0047B11296F62AF00608917 /* FinanceApp.xcdatamodeld in Sources */,
-				A0047B0B296F62AF00608917 /* ViewController.swift in Sources */,
+				A0B4F4B6297735F00038BDFB /* AddOrMinusViewController.swift in Sources */,
+				A0AD906629789E0B00B49035 /* QuotesModel.swift in Sources */,
+				A0A76272297685FD00DAF5EE /* EditPageViewController.swift in Sources */,
+				A0FB408B29762AE5000F8A3C /* Balance+Convenience.swift in Sources */,
+				A0FB408929762A83000F8A3C /* CoreDataStack.swift in Sources */,
+				A0D3058329762F7600A506E8 /* BalanceController.swift in Sources */,
 				A0047B07296F62AF00608917 /* AppDelegate.swift in Sources */,
+				A0A762702976816500DAF5EE /* BalanceViewController.swift in Sources */,
 				A0047B09296F62AF00608917 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +361,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AX2CJDJYNK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FinanceApp/Info.plist;
+				INFOPLIST_FILE = FinanceApp/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -321,7 +389,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AX2CJDJYNK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FinanceApp/Info.plist;
+				INFOPLIST_FILE = FinanceApp/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
