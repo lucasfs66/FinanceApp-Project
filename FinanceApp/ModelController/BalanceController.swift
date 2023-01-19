@@ -24,7 +24,7 @@ class Balance {
         request.predicate = NSPredicate(value: true)
         return request
     }()
-
+    ///
     func fetchMoney() {
         let result = (try? CoreDataStack.context.fetch(self.fetchRequest)) ?? []
         guard !result.isEmpty else { return }
