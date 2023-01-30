@@ -18,6 +18,7 @@
 		A0AD906629789E0B00B49035 /* QuotesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AD906529789E0A00B49035 /* QuotesModel.swift */; };
 		A0AD90682978A92900B49035 /* QuotesModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AD90672978A92900B49035 /* QuotesModelController.swift */; };
 		A0B4F4B6297735F00038BDFB /* AddOrMinusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B4F4B5297735F00038BDFB /* AddOrMinusViewController.swift */; };
+		A0C3C0F32979ED790006F646 /* QuoteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C3C0F22979ED790006F646 /* QuoteError.swift */; };
 		A0D3058329762F7600A506E8 /* BalanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D3058229762F7600A506E8 /* BalanceController.swift */; };
 		A0FB408929762A83000F8A3C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FB408829762A83000F8A3C /* CoreDataStack.swift */; };
 		A0FB408B29762AE5000F8A3C /* Balance+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FB408A29762AE5000F8A3C /* Balance+Convenience.swift */; };
@@ -37,6 +38,7 @@
 		A0AD906529789E0A00B49035 /* QuotesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesModel.swift; sourceTree = "<group>"; };
 		A0AD90672978A92900B49035 /* QuotesModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesModelController.swift; sourceTree = "<group>"; };
 		A0B4F4B5297735F00038BDFB /* AddOrMinusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrMinusViewController.swift; sourceTree = "<group>"; };
+		A0C3C0F22979ED790006F646 /* QuoteError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteError.swift; sourceTree = "<group>"; };
 		A0D3058229762F7600A506E8 /* BalanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceController.swift; sourceTree = "<group>"; };
 		A0FB408829762A83000F8A3C /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		A0FB408A29762AE5000F8A3C /* Balance+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Balance+Convenience.swift"; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				A0047B08296F62AF00608917 /* SceneDelegate.swift */,
 				A0047B12296F62B100608917 /* Assets.xcassets */,
 				A0047B17296F62B100608917 /* Info.plist */,
+				A0C3C0F22979ED790006F646 /* QuoteError.swift */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				A0A76272297685FD00DAF5EE /* EditPageViewController.swift in Sources */,
 				A0FB408B29762AE5000F8A3C /* Balance+Convenience.swift in Sources */,
 				A0FB408929762A83000F8A3C /* CoreDataStack.swift in Sources */,
+				A0C3C0F32979ED790006F646 /* QuoteError.swift in Sources */,
 				A0D3058329762F7600A506E8 /* BalanceController.swift in Sources */,
 				A0047B07296F62AF00608917 /* AppDelegate.swift in Sources */,
 				A0A762702976816500DAF5EE /* BalanceViewController.swift in Sources */,
