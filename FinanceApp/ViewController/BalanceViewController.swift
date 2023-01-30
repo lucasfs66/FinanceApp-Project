@@ -32,26 +32,18 @@ class BalanceViewController: UIViewController {
     func fetch(){
         
         BalanceNumber.text = "\(Balance.shared.money)"
+        
         EntryController.fetchAllCategoriesV2 { result in
             switch result {
-            case .success(let quoteThatCameFromTheInternet):
-                
-                guard let quoteThatCameFromTheInternetTopLevelDictionary = quoteThatCameFromTheInternet.first else { return
-                    
-                }
-                
-                guard let randomEntry = quoteThatCameFromTheInternetTopLevelDictionary.entries.randomElement() else { return }
-
+            case .success(let quote):
                 DispatchQueue.main.async {
-                    self.quotesLabel.text = "\(randomEntry.text)\n-\(randomEntry.author)"
+                    self.quotesLabel.text = "\(quote.text)\n\n-\(quote.author ?? "")"
                 }
-            case .failure(let myCustomError):
-                print(myCustomError)
+            case .failure(let error):
+                print(error)
             }
-                
             
         }
-        
     }
     
     /*

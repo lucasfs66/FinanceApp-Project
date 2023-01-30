@@ -13,6 +13,8 @@
 		A0047B11296F62AF00608917 /* FinanceApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0047B0F296F62AF00608917 /* FinanceApp.xcdatamodeld */; };
 		A0047B13296F62B100608917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0047B12296F62B100608917 /* Assets.xcassets */; };
 		A0047B16296F62B100608917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0047B14296F62B100608917 /* LaunchScreen.storyboard */; };
+		A00B40AD298862D400AC6717 /* Saving+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00B40AC298862D400AC6717 /* Saving+Convenience.swift */; };
+		A00B40AF298864B800AC6717 /* SavingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00B40AE298864B800AC6717 /* SavingController.swift */; };
 		A0A762702976816500DAF5EE /* BalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A7626F2976816500DAF5EE /* BalanceViewController.swift */; };
 		A0A76272297685FD00DAF5EE /* EditPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A76271297685FD00DAF5EE /* EditPageViewController.swift */; };
 		A0AD906629789E0B00B49035 /* QuotesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AD906529789E0A00B49035 /* QuotesModel.swift */; };
@@ -33,6 +35,8 @@
 		A0047B12296F62B100608917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0047B15296F62B100608917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0047B17296F62B100608917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00B40AC298862D400AC6717 /* Saving+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Saving+Convenience.swift"; sourceTree = "<group>"; };
+		A00B40AE298864B800AC6717 /* SavingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingController.swift; sourceTree = "<group>"; };
 		A0A7626F2976816500DAF5EE /* BalanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceViewController.swift; sourceTree = "<group>"; };
 		A0A76271297685FD00DAF5EE /* EditPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPageViewController.swift; sourceTree = "<group>"; };
 		A0AD906529789E0A00B49035 /* QuotesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesModel.swift; sourceTree = "<group>"; };
@@ -119,8 +123,9 @@
 			children = (
 				A0047B0F296F62AF00608917 /* FinanceApp.xcdatamodeld */,
 				A0FB408829762A83000F8A3C /* CoreDataStack.swift */,
-				A0FB408A29762AE5000F8A3C /* Balance+Convenience.swift */,
 				A0AD906529789E0A00B49035 /* QuotesModel.swift */,
+				A00B40AC298862D400AC6717 /* Saving+Convenience.swift */,
+				A0FB408A29762AE5000F8A3C /* Balance+Convenience.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -128,8 +133,9 @@
 		A0C706E3297074DA00400794 /* ModelController */ = {
 			isa = PBXGroup;
 			children = (
-				A0D3058229762F7600A506E8 /* BalanceController.swift */,
 				A0AD90672978A92900B49035 /* QuotesModelController.swift */,
+				A0D3058229762F7600A506E8 /* BalanceController.swift */,
+				A00B40AE298864B800AC6717 /* SavingController.swift */,
 			);
 			path = ModelController;
 			sourceTree = "<group>";
@@ -206,7 +212,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0AD90682978A92900B49035 /* QuotesModelController.swift in Sources */,
+				A00B40AD298862D400AC6717 /* Saving+Convenience.swift in Sources */,
 				A0047B11296F62AF00608917 /* FinanceApp.xcdatamodeld in Sources */,
+				A00B40AF298864B800AC6717 /* SavingController.swift in Sources */,
 				A0B4F4B6297735F00038BDFB /* AddOrMinusViewController.swift in Sources */,
 				A0AD906629789E0B00B49035 /* QuotesModel.swift in Sources */,
 				A0A76272297685FD00DAF5EE /* EditPageViewController.swift in Sources */,

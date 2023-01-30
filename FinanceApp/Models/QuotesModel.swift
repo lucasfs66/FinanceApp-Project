@@ -7,12 +7,12 @@
 
 import Foundation
 
-struct TopLevelObeject: Decodable{
-    let entries: [Entry]
-}
+//struct TopLevelObeject: Decodable{
+//    let entries: [Entry]
+//}
 
 
 struct Entry: Decodable{
     let text: String
-    let author: String
+    let author: String?
 }

@@ -3,4 +3,7 @@
     <entity name="BalanceMoney" representedClassName="BalanceMoney" syncable="YES" codeGenerationType="class">
         <attribute name="money" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
     </entity>
+    <entity name="SavingMoney" representedClassName="SavingMoney" syncable="YES" codeGenerationType="class">
+        <attribute name="saving" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
 </model>
